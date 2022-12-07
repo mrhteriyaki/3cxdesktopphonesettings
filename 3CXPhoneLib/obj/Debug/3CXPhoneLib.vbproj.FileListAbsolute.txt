@@ -1,0 +1,10 @@
+H:\repos\3CXPhoneSettings\3CXPhoneLib\bin\Debug\3CXPhoneLib.dll
+H:\repos\3CXPhoneSettings\3CXPhoneLib\bin\Debug\3CXPhoneLib.pdb
+H:\repos\3CXPhoneSettings\3CXPhoneLib\bin\Debug\3CXPhoneLib.xml
+H:\repos\3CXPhoneSettings\3CXPhoneLib\obj\Debug\3CXPhoneLib.vbproj.AssemblyReference.cache
+H:\repos\3CXPhoneSettings\3CXPhoneLib\obj\Debug\_3CXPhoneLib.Resources.resources
+H:\repos\3CXPhoneSettings\3CXPhoneLib\obj\Debug\3CXPhoneLib.vbproj.GenerateResource.cache
+H:\repos\3CXPhoneSettings\3CXPhoneLib\obj\Debug\3CXPhoneLib.vbproj.CoreCompileInputs.cache
+H:\repos\3CXPhoneSettings\3CXPhoneLib\obj\Debug\3CXPhoneLib.dll
+H:\repos\3CXPhoneSettings\3CXPhoneLib\obj\Debug\3CXPhoneLib.xml
+H:\repos\3CXPhoneSettings\3CXPhoneLib\obj\Debug\3CXPhoneLib.pdb
