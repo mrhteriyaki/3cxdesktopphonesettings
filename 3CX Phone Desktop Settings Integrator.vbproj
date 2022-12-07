@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3F5FEDA0-E00E-47E4-9DA5-A0CE872F61AE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>_3CX_Phone_Desktop_Settings_Integrator.Module1</StartupObject>
-    <RootNamespace>_3CX_Phone_Desktop_Settings_Integrator</RootNamespace>
-    <AssemblyName>3CX Phone Desktop Settings Integrator</AssemblyName>
+    <StartupObject>PhoneSettings3CX.Module1</StartupObject>
+    <RootNamespace>PhoneSettings3CX</RootNamespace>
+    <AssemblyName>PhoneSettings3CX</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>3CX Phone Desktop Settings Integrator.xml</DocumentationFile>
+    <DocumentationFile>PhoneSettings3CX.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>3CX Phone Desktop Settings Integrator.xml</DocumentationFile>
+    <DocumentationFile>PhoneSettings3CX.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -74,6 +74,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -105,6 +106,12 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\3CXPhoneLib\Lib3CXPhone.vbproj">
+      <Project>{fd549dfa-33d8-436d-b2d2-6f8136d9f552}</Project>
+      <Name>Lib3CXPhone</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
