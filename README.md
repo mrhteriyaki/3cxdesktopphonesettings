@@ -1,4 +1,4 @@
-#3CX Phone Settings
+# 3CX Phone Settings
 
 This program will set the 3CX external program launch settings when a call is connected.
 
